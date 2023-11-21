@@ -67,8 +67,6 @@ public class IMain extends JFrame {
 
 
     private void addProduct() {
-        // You can customize the add functionality here
-        // For example, show a dialog to get input from the user
         String name = JOptionPane.showInputDialog("Enter product name:");
         String price = JOptionPane.showInputDialog("Enter product price:");
         String quantity = JOptionPane.showInputDialog("Enter product quantity:");
@@ -78,8 +76,6 @@ public class IMain extends JFrame {
     }
 
     private void removeProduct() {
-        // You can customize the remove functionality here
-        // For example, show a dialog to get input from the user
         String name = JOptionPane.showInputDialog("Enter product name to remove:");
         try {
             p_list.removeProduct(name);
