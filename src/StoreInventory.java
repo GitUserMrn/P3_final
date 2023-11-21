@@ -61,7 +61,7 @@ public class StoreInventory {
                     break;
                 case 4:
                     myObj = new Scanner(System.in);
-                    System.out.print("\nEnter the product's name:\n> "); //book's International Standard Book Number
+                    System.out.print("\nEnter the product's name:\n> "); 
                     String delete = myObj.nextLine();
                     try {
                         p_list.removeProduct(delete);
