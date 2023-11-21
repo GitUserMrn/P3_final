@@ -1,9 +1,9 @@
 import java.io.*;
 
-class Product implements Serializable {  //book
-    private String p_name; //title
-    private String p_price; //author
-    private String p_quantity; //isbn
+class Product implements Serializable { 
+    private String p_name; 
+    private String p_price; 
+    private String p_quantity; 
 
     public Product(String p_name, String p_price, String p_quantity) {
         this.p_name = p_name;
